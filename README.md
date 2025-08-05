@@ -27,17 +27,18 @@ A full-stack web application where users can register, log in, upload PDF files,
    cd pdf-merger-app
 
 2. Create a .env file in server/ with:
-  SECRET=your_jwt_secret
-  CONNECTION_STRING=your_mongodb_connection_string
-  KEY=your_aws_access_key
-  SECRET_KEY=your_aws_secret_key
-  BUCKET_NAME=your_s3_bucket_name
-
+   ```bash
+   SECRET=your_jwt_secret
+   CONNECTION_STRING=your_mongodb_connection_string
+   KEY=your_aws_access_key
+   SECRET_KEY=your_aws_secret_key
+   BUCKET_NAME=your_s3_bucket_name
+  
 3. Install backend dependencies and start the server:
-  cd server
-  npm install
-  node server.js
-
+   ```bash
+   cd server
+   npm install
+   node server.js
 
 ## Notes
 - Make sure `.env`, `node_modules/`, and `upload/` are in `.gitignore`
