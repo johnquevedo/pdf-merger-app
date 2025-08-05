@@ -1,6 +1,7 @@
 # pdf-merger-app
 
-A full-stack web application where users can register, log in, upload PDF files, and merge them. Built with the MERN stack and AWS S3 for file storage.
+A full-stack web application where users can register, log in, upload PDF files, and merge them. Files are stored in AWS S3 and user data is managed with MongoDB.
+
 
 ## Features
 
