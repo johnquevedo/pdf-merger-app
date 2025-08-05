@@ -39,11 +39,7 @@ A full-stack web application where users can register, log in, upload PDF files,
    cd server
    npm install
    node server.js
-
-## Notes
-- Make sure `.env`, `node_modules/`, and `upload/` are in `.gitignore`
-- Never commit secrets or credentials
-
+   
 ## License
 MIT
 
